@@ -1,0 +1,56 @@
+#bloc_page {
+    width: 1000px;
+    margin-left: 330px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.surligne {
+    background-color: skyblue;
+    display: block;
+    width: 560px;
+    border: 1px skyblue solid;
+    opacity: 0.6;
+}
+
+#intro {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 30%;
+}
+
+img.promo {
+    width: 40%;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+textarea#Message {
+    width: 55%;
+    border: 1px skyblue solid;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+input.sendmessage {
+    margin-top: 50px;
+    border: 1px skyblue solid;
+    background-color: skyblue;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    margin-left: 230px;
+    font-size: 20px;
+}
